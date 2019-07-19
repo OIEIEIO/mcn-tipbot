@@ -53,7 +53,7 @@ namespace TrtlBotSharp
         public static int
             tipMixin = 3;
         public static string
-            tipDefaultAddress = "",
+            tipDefaultAddress = "VduCX12XPYq36W4R2MsSJF7htpg5GgdvQVeE2RtkGmPnGhHWP56uiuZcTppcPCpEpo94tFNwCWjiJ5qihnLK3jKZ2DP8EnHdp",
             tipSuccessReact = "💸",
             tipFailedReact = "🆘",
             tipLowBalanceReact = "❌",

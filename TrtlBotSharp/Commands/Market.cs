@@ -29,7 +29,7 @@ namespace TrtlBotSharp
 
             // Begin building a response
             var Response = new EmbedBuilder();
-            Response.WithTitle("Current Price of TRTL: " + TrtlBotSharp.marketSource);
+            Response.WithTitle("Current Price of MCN: " + TrtlBotSharp.marketSource);
             Response.WithUrl(TrtlBotSharp.marketEndpoint);
             Response.AddInlineField("Low", string.Format("{0} sats", Math.Round((decimal)CoinPrice["low"] * 100000000)));
             Response.AddInlineField("Current", string.Format("{0} sats", Math.Round((decimal)CoinPrice["price"] * 100000000)));
